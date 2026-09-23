@@ -30,26 +30,6 @@ home.packages = [ inputs.mtsync.packages.${pkgs.system}.default ];
 
 Rebuild your system (`nixos-rebuild switch` / `home-manager switch`) and `mtsync` will be on your `$PATH`.
 
-### Build/develop locally
-
-```bash
-nix build          # builds ./result
-nix develop        # drops into a shell with build deps available
-```
-
-## Updating to a new MtSync release
-
-1. Bump `version` in `package.nix` to the new tag.
-2. Reset `hash` to `lib.fakeHash`.
-3. Run `nix build`, copy the real hash it reports, paste it into `hash`.
-4. Commit and push.
-
-## Updating nixpkgs / flake-utils
-
-```bash
-nix flake update
-```
-
 ## Structure
 
 | File | Purpose |

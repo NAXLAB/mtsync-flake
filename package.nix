@@ -20,8 +20,7 @@ stdenv.mkDerivation (finalAttrs: {
     owner = "gavindi";
     repo = "MtSync";
     rev = finalAttrs.version;
-    # Placeholder — the first `nix build` will fail and print the real
-    # hash to paste in here. See README for the exact workflow.
+    #Update hash here when updating release
     hash = "sha256-CvKa5q5ODJx0w+jH80QgF0f7j/UIB6HJI3Eb6ywP53g=";
   };
 
