@@ -14,14 +14,14 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "mtsync";
-  version = "0.9.13";
+  version = "0.9.24";
 
   src = fetchFromGitHub {
     owner = "gavindi";
     repo = "MtSync";
     rev = finalAttrs.version;
     #Update hash here when updating release
-    hash = "sha256-CvKa5q5ODJx0w+jH80QgF0f7j/UIB6HJI3Eb6ywP53g=";
+    hash = "sha256-5H7TXieb0JjQlb4J9pOvd+wEX9MRW3xdF0swuuZFSS0=";
   };
 
   nativeBuildInputs = [
