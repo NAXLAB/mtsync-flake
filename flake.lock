@@ -18,6 +18,23 @@
         "type": "github"
       }
     },
+    "mtsync": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1792532193,
+        "narHash": "sha256-ZSWJP3ahwvREPH55Ob02Azk3V7eitVGxMkh8jPa3+cI=",
+        "owner": "NAXLAB",
+        "repo": "MtSync",
+        "rev": "cb277ff75ab4bc85beeb766f4e02d03ece407219",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NAXLAB",
+        "ref": "unreadable-directory-fix",
+        "repo": "MtSync",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1790046670,
@@ -37,6 +54,7 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
+        "mtsync": "mtsync",
         "nixpkgs": "nixpkgs"
       }
     },

@@ -8,7 +8,7 @@
     # Source is pulled as a flake input, so flake.lock pins the exact commit.
     # Bump to the newest commit with:  nix flake update mtsync
     mtsync = {
-      url = "github:NAXLAB/MtSync";
+      url = "github:NAXLAB/MtSync/unreadable-directory-fix";
       flake = false;
     };
   };
